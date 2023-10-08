@@ -1,0 +1,370 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #efd65c;
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+#portada {
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #efd65c;
+    font-size: large;
+}
+
+#logoh1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#logo {
+    width: 120px;
+    margin-right: 10px;
+}
+
+#h1 {
+    text-align: center;
+    color: #ae3d3d;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+#espacios {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+#fotosespacios {
+    max-height: 28vh;
+}
+
+.card-title {
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #efd65c;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#mapa {
+    width: 500px;
+    height: 250px;
+}
+
+#contacto-footer,
+#redes-sociales {
+    flex: 1;
+    padding: 0 20px;
+}
+
+footer h3 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+footer a {
+    color: #efd65c;
+    text-decoration: none;
+}
+
+#acontainer {
+    margin-top: 15px;
+}
+
+@media (max-width: 767px) {
+    nav ul {
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin-left: 20px;
+    }
+
+    #portada {
+        max-height: 110px;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 10px;
+    }
+
+    #servicios {
+        flex-direction: column; 
+        align-items: center; 
+        margin-bottom: 20px;
+        margin-top: 45px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .container-servicios {
+        flex-basis: 100%; 
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .container-servicios .icon {
+        font-size: 24px;
+        width: 90px;
+        height: 90px;
+        background-color: #efd65c;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 10px;
+    }
+
+    #espacios {
+        margin: 20px 10px;
+    }
+
+    #h2espacios {
+        margin: 25px auto; 
+        text-align: center; 
+        line-height: 45px; 
+        color: black;
+        border-radius: 10px;
+        background-color: #efd65c;
+        width: 300px;
+        height: 45px;
+    }
+
+    #fotosespacios {
+        max-height: 28vh;
+    }
+
+    .card-title {
+        padding: 5px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contacto-footer,
+    #redes-sociales {
+        flex: none;
+        padding: 10px 0;
+        width: 100%; 
+    }
+
+    footer h3 {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    nav ul li {
+        margin-left: 20px;
+    }
+
+    #portada {
+        max-height: 210px;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 10px;
+    }
+
+    #servicios {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        margin-top: 45px;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+    .container-servicios {
+        flex-basis: calc(25% - 20px);
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .container-servicios .icon {
+        font-size: 24px;
+        width: 90px;
+        height: 90px;
+        background-color: #efd65c;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 10px;
+    }
+
+    #espacios {
+        margin: 20px 10px; 
+    }
+
+    #h2espacios {
+        margin: 25px auto; 
+        text-align: center;
+        line-height: 45px; 
+        color: black;
+        border-radius: 10px;
+        background-color: #efd65c;
+        width: 300px;
+        height: 45px;
+    }
+
+    #fotosespacios {
+        max-height: 16vh;
+    }
+
+    .card-title {
+        padding: 5px;
+    }
+
+    footer {
+        background-color: #333;
+        color: #efd65c;
+        text-align: center;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #contacto-footer,
+    #redes-sociales {
+        flex: 1;
+        padding: 0 20px;
+    }
+    
+    footer h3 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    
+    footer a {
+        color: #efd65c;
+        text-decoration: none;
+    }
+    
+    #acontainer {
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 1025px) {
+    nav ul li {
+        margin-left: 20px;
+    }
+
+    #portada {
+        max-height: 416px;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 10px;
+    }
+
+    #servicios {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        margin-top: 45px;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+    .container-servicios {
+        flex-basis: calc(25% - 20px);
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .container-servicios .icon {
+        font-size: 24px;
+        width: 90px;
+        height: 90px;
+        background-color: #efd65c;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 10px;
+    }
+
+    #espacios {
+        margin: 20px 10px; 
+    }
+
+    #h2espacios {
+        margin: 25px auto; 
+        text-align: center; 
+        line-height: 45px; 
+        color: black;
+        border-radius: 10px;
+        background-color: #efd65c;
+        width: 300px;
+        height: 45px;
+    }
+
+    #fotosespacios {
+        max-height: 28vh;
+    }
+
+    .card-title {
+        padding: 5px;
+    }
+
+    footer {
+        background-color: #333;
+        color: #efd65c;
+        text-align: center;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #contacto-footer,
+    #redes-sociales {
+        flex: 1;
+        padding: 0 20px;
+    }
+    
+    footer h3 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    
+    footer a {
+        color: #efd65c;
+        text-decoration: none;
+    }
+    
+    #acontainer {
+        margin-top: 15px;
+    }
+}
